@@ -1,0 +1,21 @@
+Envision Lite
+Copyright (c) 2026 ChristianAnselm. All rights reserved.
+
+Envision Lite is free to download and use for personal, non-commercial purposes.
+
+Without written permission from the copyright holder, you may not:
+- sell it, or include it in anything that is sold;
+- share copies of it, other than by linking to its official download page;
+- modify, decompile or reverse engineer it, or publish changed versions of it.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Envision Lite changes settings stored on your controller, and can use the separately installed ViGEmBus driver to
+add a virtual controller. Use it at your own risk. Online games may treat input macros as cheating; check a game's
+rules before using them.
+
+Not affiliated with, endorsed by or sponsored by Corsair or SCUF Gaming. SCUF, Envision and Corsair are trademarks
+of their respective owners.

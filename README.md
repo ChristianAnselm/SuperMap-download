@@ -1,4 +1,4 @@
-# Envision Lite
+# SuperMap Lite
 
 A small settings app for the wired **SCUF Envision V2**, as an alternative to Corsair iCUE. No drivers, no admin rights, no account.
 

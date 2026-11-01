@@ -2,7 +2,7 @@
 
 A small settings app for the wired **SCUF Envision V2**, as an alternative to Corsair iCUE. No drivers, no admin rights, no account.
 
-It edits the three profiles stored on the controller itself, so your changes work everywhere, even with the app closed. It can also pass [other gamepads](#other-controllers) on to games as an Xbox controller, with your own layout, deadzones and bindings.
+It edits the three profiles stored on the controller itself, so your changes work everywhere, even with the app closed. It can also pass [other gamepads](#other-controllers) on to games as an Xbox controller, with your own layout, deadzones and bindings, including their back paddles.
 
 ## Download
 
@@ -71,16 +71,18 @@ Any other gamepad Windows recognises, over USB or Bluetooth, appears in the **Co
 - **A layout:** which button is A, which axis is the left stick, and so on. **Set up buttons** asks you to press each control in turn and takes about a minute. The DualShock 4 and DualSense have a built-in layout.
 - **Its own virtual Xbox controller** (Settings, per pad), for games that don't recognise the pad.
 - **Stick and trigger deadzones**, and the same bindings as the G keys.
+- **Paddles:** up to four back paddles, which can be bound like any button: to an Xbox button, a key, a mouse button or a macro. The DualSense Edge's back buttons work without setup. For other pads, run **Set up buttons** and press the paddles when it asks at the end. That works when the pad reports its paddles to Windows as controls of their own. Some pads only map them to other buttons inside the controller, and then there's nothing separate to bind.
 
 What it can't do:
 
 - **Hide the real pad from games.** That needs another driver, which this app leaves out. A game that already supports the pad may see two controllers, so use Xbox controller mode for games that don't recognise it at all.
 - **Rumble, gyro, touchpad and light bar** on these pads.
 - **Change pads that already are Xbox controllers.** They appear only as a live view.
+- **Bind an Xbox Elite controller's paddles.** Windows only reports them to the program in front, which during play is the game. The same goes for Xbox-style pads that map their paddles inside the controller. Map them in the controller's own app (Xbox Accessories for the Elite) instead.
 
 ## Not tried yet
 
-- Real controllers other than the SCUF, including the DualShock 4 and DualSense layouts. These were tested on simulated input only.
+- Real controllers other than the SCUF, including the DualShock 4, DualSense and DualSense Edge layouts, and paddles on any of them. These were tested on simulated input only.
 - Whether G2–G4 really stop changing the volume when pressed on the controller.
 
 Found a problem? [Open an issue](https://github.com/ChristianAnselm/SuperMap-download/issues).

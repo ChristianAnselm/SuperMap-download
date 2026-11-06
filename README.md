@@ -36,9 +36,11 @@ Before every save, the app backs up the controller's settings to the `backups` f
 | Triggers | Start and end deadzone for each trigger, with a live preview |
 | Rumble | Strength of each motor (0–100%) |
 | Test | Live view of sticks, triggers, buttons, D-pad, profile button and the paddles |
-| Settings | Xbox controller mode, tray behaviour, Start with Windows (off by default), backups |
+| Settings | The profile's name, saving it to a file or loading one, Xbox controller mode, tray behaviour, Start with Windows (off by default), backups |
 
 The profile pills at the top choose which profile you're editing. A dot marks the one active on the controller, and **Make active** switches to it.
+
+**Settings → Profile** can rename a profile (up to 26 characters, stored on the controller). It can also save a profile to a file, or load one into the slot. A file holds the paddle and SAX buttons, deadzones, rumble and bindings, so you can keep more than three. Click **Save to controller** afterwards to keep the change.
 
 ### On the controller or on the PC
 
@@ -47,7 +49,7 @@ The profile pills at the top choose which profile you're editing. A dot marks th
 
 ### Pad macros
 
-A pad macro records everything the controller does for a moment (buttons, D-pad, analog triggers and both sticks) and plays it back with its original timing. Click **Record**, do the move on the controller, then click **Stop recording**. You can then add waits or delete steps.
+A pad macro records everything the controller does for a moment (buttons, D-pad, analog triggers and both sticks) and plays it back with its original timing. Click **Record**, do the move on the controller, then click **Stop recording**. The list shows each step, including which way a stick moved and how far ("Move left stick up-left (100%)"), and you can add waits or delete steps.
 
 Playback goes through the virtual Xbox controller, so pad macros need [Xbox controller mode](#xbox-controller-mode). Online games may treat input macros as cheating: check a game's rules before using them in multiplayer.
 

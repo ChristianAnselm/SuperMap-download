@@ -1,4 +1,4 @@
-# SuperMap Lite
+# SupaMap
 
 A small settings app for the wired **SCUF Envision V2**, as an alternative to Corsair iCUE. No drivers, no admin rights, no account.
 
@@ -6,16 +6,18 @@ It edits the three profiles stored on the controller itself, so your changes wor
 
 ## Download
 
-**[Download the latest version](https://github.com/ChristianAnselm/SuperMap-download/releases/latest)**: under **Assets**, get `EnvisionLite-<date>.zip`. The two "Source code" files GitHub adds only contain this page.
+**[Download the latest version](https://github.com/ChristianAnselm/SuperMap-download/releases/latest)**: under **Assets**, get `SupaMap-<date>.zip`. The two "Source code" files GitHub adds only contain this page.
 
 It runs on Windows 10 and 11, using the .NET Framework 4.8 that comes with Windows, so there's nothing else to install. The onboard-profile features need the wired SCUF Envision V2 (USB ID `1B1C:3A04`).
 
 ## Getting started
 
-1. Extract the zip into a folder of its own, such as `Documents\Envision Lite`. The app keeps its settings and backups next to itself, so don't run it from inside the zip.
+1. Extract the zip into a folder of its own, such as `Documents\SupaMap`. The app keeps its settings and backups next to itself, so don't run it from inside the zip.
 2. Quit iCUE if it's running. Both programs talk to the controller, and iCUE may switch it over to its own settings.
-3. Run `EnvisionLite.exe`. The app isn't code-signed, so Windows may say "Windows protected your PC". Click **More info**, then **Run anyway**.
+3. Run `SupaMap.exe`. The app isn't code-signed, so Windows may say "Windows protected your PC". Click **More info**, then **Run anyway**.
 4. Plug in the controller. Make your changes, then click **Save to controller**. Gamepad, deadzone and rumble changes apply at once and stay after unplugging.
+
+**Coming from Envision Lite?** That was this app's old name. Extract the new zip into the same folder to keep your settings, bindings and backups, then delete the old `EnvisionLite.exe`. If you had **Start with Windows** on, it moves over to SupaMap the first time you run it.
 
 Before every save, the app backs up the controller's settings to the `backups` folder. **Settings → Restore a backup…** puts any of them back.
 
@@ -80,7 +82,7 @@ What it can't do:
 
 - **Hide the real pad from games.** That needs another driver, which this app leaves out. A game that already supports the pad may see two controllers, so use Xbox controller mode for games that don't recognise it at all.
 - **Rumble, gyro, touchpad and light bar** on these pads.
-- **Remap pads that already are Xbox controllers** (Xbox pads, most third-party pads, a Victrix Pro BFG in PC mode). Hiding them from games would need a driver. Their **Buttons** page (under **Xbox controllers**) can still make any button also press a key or mouse button or play a key macro, with repeat; the game sees the original button too. If the pad has a mode switch, its PS4 or DirectInput mode lets Envision Lite set it up fully, paddles included.
+- **Remap pads that already are Xbox controllers** (Xbox pads, most third-party pads, a Victrix Pro BFG in PC mode). Hiding them from games would need a driver. Their **Buttons** page (under **Xbox controllers**) can still make any button also press a key or mouse button or play a key macro, with repeat; the game sees the original button too. If the pad has a mode switch, its PS4 or DirectInput mode lets SupaMap set it up fully, paddles included.
 - **Bind an Xbox Elite controller's paddles.** Windows only reports them to the program in front, which during play is the game. The same goes for Xbox-style pads that map their paddles inside the controller. Map them in the controller's own app (Xbox Accessories for the Elite) instead.
 
 ## Not tried yet

@@ -46,6 +46,7 @@ The profile pills at the top choose which profile you're editing. A dot marks th
 
 - **Gamepad** targets for paddles and SAX buttons are stored on the controller. They work everywhere, even with the app deleted.
 - **Everything else** (keys, mouse buttons, macros and every G-key binding) is done by the app, because the controller's firmware only knows gamepad buttons. These work only while the app runs, so closing the window then keeps it in the tray.
+- **Repeat while held:** any key, mouse button or gamepad binding can repeat instead of being held. It presses once, then after a delay you choose repeats at a set rate until you let go. A paddle's gamepad button moves from the controller to the PC when it repeats, so it needs Xbox controller mode.
 
 ### Pad macros
 

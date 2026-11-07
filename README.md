@@ -73,7 +73,7 @@ The app then adds a virtual Xbox 360 controller that copies everything the SCUF 
 
 Any other gamepad Windows recognises, over USB or Bluetooth, appears in the **Controllers** list. The app can't change settings stored inside these pads, but it can give each one:
 
-- **A layout:** which button is A, which axis is the left stick, and so on. **Set up buttons** asks you to press each control in turn and takes about a minute. The DualShock 4 and DualSense have a built-in layout.
+- **A layout:** which button is A, which axis is the left stick, and so on. **Set up buttons** asks you to press each control in turn and takes about a minute. The DualShock 4, DualSense and Victrix Pro BFG for PS5 (wired, in PS5 mode) have a built-in layout.
 - **Its own virtual Xbox controller** (Settings, per pad), for games that don't recognise the pad.
 - **Stick and trigger deadzones**, and the same bindings as the G keys.
 - **Paddles:** up to four back paddles, which can be bound like any button: to an Xbox button, a key, a mouse button or a macro. The DualSense Edge's back buttons work without setup. For other pads, run **Set up buttons** and press the paddles when it asks at the end. That works when the pad reports its paddles to Windows as controls of their own. Some pads only map them to other buttons inside the controller, and then there's nothing separate to bind.

@@ -23,7 +23,7 @@ Before every save, the app backs up the controller's settings to the `backups` f
 
 - Replace drivers or install services. The only driver it can use is ViGEmBus, for the optional [Xbox controller mode](#xbox-controller-mode), and you install that yourself.
 - Ask for admin rights.
-- Connect to the internet.
+- Connect to the internet, except to check for updates when you ask (**Settings → Updates**). Nothing is downloaded or installed for you.
 - Run in the background, unless you give a button a PC-side binding or turn on Xbox controller mode.
 - Hook the keyboard, except while G2, G3 or G4 has a binding (see [G keys](#g-keys)).
 
@@ -36,7 +36,7 @@ Before every save, the app backs up the controller's settings to the `backups` f
 | Triggers | Start and end deadzone for each trigger, with a live preview |
 | Rumble | Strength of each motor (0–100%) |
 | Test | Live view of sticks, triggers, buttons, D-pad, profile button and the paddles |
-| Settings | The profile's name, saving it to a file or loading one, Xbox controller mode, tray behaviour, Start with Windows (off by default), backups |
+| Settings | The profile's name, saving it to a file or loading one, Xbox controller mode, tray behaviour, Start with Windows (off by default), backups, update check |
 
 The profile pills at the top choose which profile you're editing. A dot marks the one active on the controller, and **Make active** switches to it.
 
@@ -80,7 +80,7 @@ What it can't do:
 
 - **Hide the real pad from games.** That needs another driver, which this app leaves out. A game that already supports the pad may see two controllers, so use Xbox controller mode for games that don't recognise it at all.
 - **Rumble, gyro, touchpad and light bar** on these pads.
-- **Change pads that already are Xbox controllers.** They appear only as a live view.
+- **Remap pads that already are Xbox controllers** (Xbox pads, most third-party pads, a Victrix Pro BFG in PC mode). Hiding them from games would need a driver. Their **Buttons** page (under **Xbox controllers**) can still make any button also press a key or mouse button or play a key macro, with repeat; the game sees the original button too. If the pad has a mode switch, its PS4 or DirectInput mode lets Envision Lite set it up fully, paddles included.
 - **Bind an Xbox Elite controller's paddles.** Windows only reports them to the program in front, which during play is the game. The same goes for Xbox-style pads that map their paddles inside the controller. Map them in the controller's own app (Xbox Accessories for the Elite) instead.
 
 ## Not tried yet
@@ -88,7 +88,7 @@ What it can't do:
 - Real controllers other than the SCUF, including the DualShock 4, DualSense and DualSense Edge layouts, and paddles on any of them. These were tested on simulated input only.
 - Whether G2–G4 really stop changing the volume when pressed on the controller.
 
-Found a problem? [Open an issue](https://github.com/ChristianAnselm/SuperMap-download/issues).
+Found a problem? Click **Copy controller details** (on the controller's Test page, or on the Xbox controllers page) and paste the result into an issue: [Open an issue](https://github.com/ChristianAnselm/SuperMap-download/issues).
 
 ## Uninstall
 
